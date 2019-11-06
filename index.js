@@ -1,3 +1,5 @@
+const sum = require('./sum');
+
 /* 
 	myMathModule
 
@@ -7,9 +9,10 @@
 
 const div = require('./div.js')
 const Math = {
-    PI: 3.141592653589793, // Mathematical constant defined as the ratio of a circle's circumference to its diameter.
-    div: div,
-    mul: mul
+	PI: 3.141592653589793, // Mathematical constant defined as the ratio of a circle's circumference to its diameter.
+	sum: sum,
+   div: div,
+   mul: mul
 };
 
 module.exports = Math;
